@@ -12,3 +12,11 @@ keywords = ["cargo", "expand"]
 categories = ["development-tools"]
 
 [dependencies]
+cargo_metadata = "0.14.0"
+anyhow = "1.0.42"
+syn = "1.0.74"
+tempdir = "0.3.7"
+fs_extra = "1.2.0"
+tempfile = "3.2.0"
+syn-select = "0.2.0"
+quote = "1.0.9"
