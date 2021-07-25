@@ -15,7 +15,7 @@
 use anyhow::Context;
 use cargo_metadata::{CargoOpt, Metadata, MetadataCommand, Package};
 use quote::quote;
-use std::str::FromStr;
+
 use std::{
     env,
     ffi::OsString,
